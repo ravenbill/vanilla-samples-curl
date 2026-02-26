@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# NOTE: Bulk Send feature is not yet implemented in Vanilla Esign.
+# This sample demonstrates the planned API design and may change.
 set -euo pipefail
 source "$(dirname "$0")/../lib/auth.sh"
 vanilla_login

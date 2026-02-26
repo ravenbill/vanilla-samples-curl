@@ -9,6 +9,13 @@ Runnable shell scripts demonstrating the Vanilla e-signature API using `curl` an
 - [jq](https://jqlang.github.io/jq/)
 - netcat (`nc`) — only for the webhook sample
 
+## Feature Status
+
+Most samples work with the current Vanilla Esign API. The following samples demonstrate **planned features** that are not yet implemented:
+
+- `samples/use-templates.sh` — Templates (planned)
+- `samples/bulk-send.sh` — Bulk Send (planned)
+
 ## Setup
 
 ```bash
@@ -25,7 +32,7 @@ cp .env.example .env
 Or export the variables directly:
 
 ```bash
-export VANILLA_API_URL="https://your-vanilla-instance.example.com"  # default: http://localhost:4000
+export VANILLA_API_URL="https://demo.ravenbill.com"  # or https://www.ravenbill.com for production
 export VANILLA_EMAIL="you@example.com"
 export VANILLA_PASSWORD="your-password"
 export VANILLA_ACCOUNT_ID="your-account-id"
